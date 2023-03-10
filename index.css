@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: grey;
+}
+
+
+.calculator {
+    width: 370px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(60, 135, 221);
+    border-radius: 8px;
+}
+
+.firstLine {
+    width: 370px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondLine {
+    width: 370px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.thirdLine {
+    width: 370px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourthLine {
+    width: 370px;
+    display: flex;
+    justify-content: space-around;
+}
+.screen{
+    width: 92%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.screen span{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.numbers {
+    width: 60px;
+    cursor: pointer;
+
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px;
+
+    background-color: rgb(221, 210, 210);
+}
+
+.tools {
+    width: 60px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px;
+
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    border-radius: 5px;
+
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 89);
+}
+
+.deleteTools {
+    width: 60px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px;
+
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 50, 50);
+}
